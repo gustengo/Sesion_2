@@ -1,0 +1,128 @@
+/*
+$colorFondo=#070613;
+$moradoInt=#1b1833;
+*/
+
+@media (max-width:320px) {
+    * {
+        background: #070613;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #fff
+    }
+    /*Titulo*/
+    .titulo,
+    .parrafo,
+    .pie {
+        background: #1b1833;
+        border: 10px #1b1833 solid;
+    }
+    .titulo h1,
+    .parrafo p {
+        background-color: #1b1833;
+    }
+    .titulo span {
+        color: #A360D8;
+        background-color: #1b1833;
+    }
+    /*Termina titulo*/
+    /*Parrafo*/
+    .pie {
+        display: flex;
+        flex-direction: row;
+    }
+    .companies,
+    .templates,
+    .queries {
+        background-color: #1b1833;
+        margin-right: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: bolder;
+        /*
+        margin-right: 65px;
+        margin-top: 40px;
+        background: #1b1833;
+        font-size: 20px;
+        font-weight: bolder;*/
+    }
+    .pie span {
+        background-color: #1b1833;
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    /*Termina Parrafo*/
+    img {
+        width: 305px;
+    }
+}
+
+* {
+    background: #070613;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*font para h1 y temas de pie*/
+}
+
+.titulo span {
+    color: #A360D8;
+    background-color: #1b1833;
+}
+
+.tarjeta {
+    margin: 180px 200px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 5px solid #1b1833;
+    background: #1b1833;
+}
+
+.texto {
+    margin-right: 520px;
+}
+
+.pie {
+    display: flex;
+    flex-direction: row;
+}
+
+.companies,
+.templates,
+.queries {
+    margin-right: 65px;
+    margin-top: 40px;
+    background: #1b1833;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.pie span {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    background-color: #1b1833;
+}
+
+
+/* Imagen */
+
+img {
+    float: right;
+    width: 470px;
+    height: 371px;
+    margin-top: -337px;
+    margin-right: -5px;
+    /*
+    width: 450px;
+    margin-top: -320px;
+    margin-right: 10px;
+    border-radius: 3px;
+    */
+}
+
+div,
+h1,
+p {
+    background-color: #1b1833;
+}
